@@ -1,0 +1,37 @@
+{
+  "Actions": [
+    {
+      "Icon": "Images/GrafanaAction",
+      "Name": "Render Graph",
+      "States": [
+        {
+          "Image": "Images/GrafanaKey",
+          "TitleAlignment": "bottom",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Render a graph",
+      "UUID": "rocks.foxes.grafana-streamdeck.action.rendergraph"
+    }
+  ],
+  "Author": "Kihira",
+  "Description": "Grafana Stream Deck",
+  "Name": "Grafana Stream Deck",
+  "Icon": "Images/PluginIcon",
+  "URL": "",
+  "Version": "0.1",
+  "CodePath": "GrafanaStreamdeck",
+  "Category": "Grafana",
+  "CategoryIcon": "Images/GrafanaCategory",
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "4.1"
+  }
+}
