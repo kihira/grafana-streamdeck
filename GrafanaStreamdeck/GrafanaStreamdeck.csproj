@@ -41,11 +41,19 @@
       <None Update="manifest.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="PropertyInspector\index.html">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="PropertyInspector\sdpi.css">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="PropertyInspector\sdtools.common.js">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
     <ItemGroup>
         <Folder Include="Images" />
-        <Folder Include="PropertyInspector" />
     </ItemGroup>
 
 </Project>

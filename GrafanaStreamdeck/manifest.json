@@ -12,7 +12,8 @@
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "Render a graph",
-      "UUID": "rocks.foxes.grafana-streamdeck.action.rendergraph"
+      "UUID": "rocks.foxes.grafana-streamdeck.action.rendergraph",
+      "PropertyInspectorPath": "PropertyInspector/index.html"
     }
   ],
   "Author": "Kihira",

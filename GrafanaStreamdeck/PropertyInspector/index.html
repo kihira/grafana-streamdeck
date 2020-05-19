@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grafana</title>
+    <link rel="stylesheet" href="sdpi.css">
+</head>
+<body>
+<div class="sdpi-wrapper">
+    <div class="sdpi-item">
+        <div class="sdpi-item-label">API Key</div>
+        <input class="sdpi-item-value sdProperty" id="api_key" value="" placeholder="Generate API Key" oninput="setSettings()" required>
+    </div>
+    <div class="sdpi-item">
+        <div class="sdpi-item-label">Refresh Interval</div>
+        <input class="sdpi-item-value sdProperty" type="number" id="refresh_interval" value="60" oninput="setSettings()" required>
+    </div>
+    <div class="sdpi-item">
+        <div class="sdpi-item-label">URL</div>
+        <input class="sdpi-item-value sdProperty" id="url" oninput="setSettings()" required>
+    </div>
+    <div class="sdpi-item">
+        <div class="sdpi-item-label">Org ID</div>
+        <input class="sdpi-item-value sdProperty" oninput="setSettings()"  type="number" id="org_id" placeholder="Auto calculated from URL" required>
+    </div>
+    <div class="sdpi-item">
+        <div class="sdpi-item-label">Panel ID</div>
+        <input class="sdpi-item-value sdProperty" oninput="setSettings()"  type="number" id="panel_id" placeholder="Auto calculated from URL" required>
+    </div>
+    <script src="sdtools.common.js"></script>
+</div>
+</body>
+</html>
